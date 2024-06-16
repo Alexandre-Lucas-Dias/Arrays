@@ -4,7 +4,7 @@
 // conversão implícita
 
 const numero = 456;
-const numeroString = Number("456abcdef");
+const numeroString = Number("456abcdefg");
 
 // console.log(numero == numeroString)
 console.log(numero + numeroString)
