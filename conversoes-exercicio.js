@@ -17,3 +17,26 @@ usuarioConectado = false;
 console.log(Number(usuarioConectado)); // teremos a conversão da booleana para número, sendo que false (falso) retorna o número 0.
 usuarioConectado = true;
 console.log(Number(usuarioConectado)); // agora teremos a conversão de true (verdadeiro) para o número 1.
+
+var respostaDeTudo = 42
+let idade = 29
+const pi = 3.14
+{
+    var respostaDeTudo = 3.14
+    let idade = 42
+    const pi = 29
+    console.log(respostaDeTudo, idade, pi)
+
+}
+console.log(respostaDeTudo, idade, pi)
+
+let minhaLet;
+console.log(minhaLet); //undefined
+
+// atribuindo um valor com TIPO DE DADO STRING
+minhaLet = "eu sou um texto";
+console.log(minhaLet); // "eu sou um texto"
+
+// reatribuindo, desta vez com dado do TIPO NUMBER
+minhaLet = 100;
+console.log(minhaLet); //100
