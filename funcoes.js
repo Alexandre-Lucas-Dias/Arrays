@@ -24,6 +24,8 @@ function soma(){
 
 //console.log(soma())
 
+// aqui eu faço uma série de exemplos da função Math.algumacoisa()
+
 console.log(Math.round(4.3)+" a")
 console.log(Math.round(3.85)+" b")
 console.log(Math.round(2.5)+" c")
@@ -37,3 +39,5 @@ console.log(Math.sqrt(64)+" j")
 console.log(Math.min(0,150,30,20,-8,-200)+" k")
 console.log(Math.max(0,150,30,20,-8,-200)+" l")
 console.log(`${Math.random()} m`) // exemplo de template literal
+console.log(`${Math.sign(-89)} ${Math.sign(567)}`)
+console.log(Math.LN2)
