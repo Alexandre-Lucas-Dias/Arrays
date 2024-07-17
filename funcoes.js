@@ -23,3 +23,17 @@ function soma(){
 }
 
 //console.log(soma())
+
+console.log(Math.round(4.3)+" a")
+console.log(Math.round(3.85)+" b")
+console.log(Math.round(2.5)+" c")
+console.log(Math.ceil(5.2)+" d")
+console.log(Math.floor(5.2)+" e")
+console.log(Math.trunc(4.3)+" f")
+console.log(Math.trunc(4.8)+" g")
+console.log(Math.pow(4,2)+" h")
+console.log(Math.pow(2.5,1.5)+" i")
+console.log(Math.sqrt(64)+" j")
+console.log(Math.min(0,150,30,20,-8,-200)+" k")
+console.log(Math.max(0,150,30,20,-8,-200)+" l")
+console.log(`${Math.random()} m`) // exemplo de template literal
