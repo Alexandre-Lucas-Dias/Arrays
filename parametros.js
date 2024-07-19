@@ -51,3 +51,10 @@ function operacaoMatematica(numero1, numero2, numero3) {
 }
    
 console.log(operacaoMatematica(15, 30, 45)) // 90
+
+// testando o que acontece quando uma função não recebe nenhum argumento ao ser chamada
+
+function comParametro(param) {
+    console.log(param)
+}
+comParametro()
