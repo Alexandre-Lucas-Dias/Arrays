@@ -47,7 +47,7 @@ function comparacoes(){
     String()
 }
 
-function console(){
+function consoleExemplo(){
     //log -> registro
 
     const minhaVar = true;
@@ -528,7 +528,7 @@ function typeString(){
 
 arrowFunction();
 comparacoes();
-console();
+consoleExemplo();
 conversoesExercicio();
 conversoes();
 erros();
