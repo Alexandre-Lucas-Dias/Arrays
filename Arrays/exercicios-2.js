@@ -41,8 +41,8 @@ let valorInicial = 1
 
 for (let x = 0; x <= 2; x ++){
     let linha = []
-    for (let y = 0; y <= 2; y++){
-        linha.push(valorInicial++)
+    for (let y = 0; y <= 2; y ++){
+        linha.push(valorInicial ++)
     }
     lista.push(linha)
 }
