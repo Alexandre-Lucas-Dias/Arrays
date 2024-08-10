@@ -74,3 +74,66 @@ const clientes = [
 ]
 
 console.log(`${clientes[0][2]} tem ${clientes[1][2]} anos`)
+
+const notas1 = [10, 6.5, 8 ,7.5]
+const notas2 = [9, 6, 6]
+const notas3 = [8.5, 9.5]
+ 
+const notasGerais = [notas1,notas2,notas3]
+ 
+let somaDasNotas = 0
+let qtdeDeElementos = 0
+ 
+for (let i = 0; i < notasGerais.length; i++) {
+  for (let j = 0; j < notasGerais[i].length; j++) {
+    somaDasNotas += notasGerais[i][j]
+    qtdeDeElementos++
+  }
+}
+ 
+const media = somaDasNotas/qtdeDeElementos
+ 
+console.log(`A média das notas é: ${media.toFixed(2)}`)
+
+let precos = [5.5, 6.2, 14, 19.5];
+
+let desconto = 0.90;
+
+for (let i = 0; i < precos.length; i++) {
+  precos[i] *= desconto;
+}
+
+console.log(`Os preços com desconto no 'for clássico' são: ${precos}`);
+
+precos = [5.5, 6.2, 14, 19.5];
+desconto = 0.80;
+let i = 0
+
+for (let preco of precos) {
+  precos[i] *= desconto;
+  i++
+ } // nota-se que para esse caso, não compensa usar "for of" porque de qualquer forma o laço precisou de um contador
+ 
+console.log(`Os preços com desconto no 'for of' são:`)
+for (i = 0; i < precos.length; i++){
+  console.log(precos[i].toFixed(2))
+}
+
+const outrosNumeros = [5, 8, 6, 10, 7];
+let somaTotal = 0;
+
+for (let i = 0; i < outrosNumeros.length; i++) {
+    somaTotal += outrosNumeros[i];
+}
+
+const outraMedia = somaTotal / outrosNumeros.length;
+
+console.log("A média dos números é:", outraMedia);
+
+const numerosPares = [];
+ 
+for (let i = 0; i <= 100; i += 2) {
+  numerosPares.push(i);
+}
+ 
+console.log(numerosPares);
