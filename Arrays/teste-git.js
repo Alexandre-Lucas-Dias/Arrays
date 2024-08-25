@@ -137,3 +137,34 @@ for (let i = 0; i <= 100; i += 2) {
 }
  
 console.log(numerosPares);
+
+const nome = "Alura";
+let nomeMaiusculas = "";
+ 
+for (let i = 0; i < nome.length; i++) {
+ nomeMaiusculas += nome[i].toUpperCase()
+}
+console.log(nomeMaiusculas) //ALURA
+
+const nomedoCurso = "Fundamentos de JS";
+const nomeDaPlataforma = " Alura"
+ 
+const nomeCompleto = nomedoCurso.concat(nomeDaPlataforma)
+console.log(nomeCompleto)  //Fundamentos de JS Alura
+
+const listaProdutos = ['pôster A4', 'pôster A5', 'camiseta lisa', 'camiseta estampada', 'pin de metal', 'cartela de adesivos'];
+
+const listaAtualizada = listaProdutos.map((produto) => {
+ return `${produto} - unidade`;
+})
+
+console.log(listaAtualizada);
+
+const numeros = [2, 4, 6, 8];
+let soma = 0;
+
+numeros.forEach(numero => {
+    soma += numero;
+});
+
+console.log("A soma dos números é:", soma);
