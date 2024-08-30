@@ -167,4 +167,28 @@ numeros.forEach(numero => {
     soma += numero;
 });
 
-console.log("A soma dos números é:", soma);
+console.log("A soma dos números é:", soma); // 20
+
+const notas = [10, 5, 7, 4, 8, 3];
+
+const aprovados = notas.filter((nota) => nota >= 7);
+console.log(aprovados);
+
+const arrayOriginal3 = [7, 7, 8, 9];
+
+function alteraArray(array) {
+  //array.push(10);
+
+  console.log(`array do parâmetro é ${array}`);
+  console.log(`arrayOriginal é ${arrayOriginal3}`);
+}
+
+alteraArray([...arrayOriginal3, 10]);
+
+const numerosSequenciais = [1, 2, 3, 4, 5];
+
+const somaDeTodos = numerosSequenciais.reduce((acumulador, valorAtual) => {
+    return acumulador + valorAtual;
+}, 0);
+
+console.log("A soma dos números é:", somaDeTodos);
